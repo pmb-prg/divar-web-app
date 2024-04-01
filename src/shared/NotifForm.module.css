@@ -1,0 +1,32 @@
+.container{
+    transform: translate(-50%, -50%);
+    animation: show 8s forwards;
+    @apply w-[93vw] items-center pr-4 border border-green-600 rounded-md bg-green-300 h-12 fixed sm:w-[90vw] z-50 left-1/2 top-[-67px] flex transition-all
+}
+
+
+@keyframes show {
+    0%{
+        opacity: 0;
+        top: -67px;
+    }
+    10%{
+        opacity: 1;
+        top: 120px;
+    }
+    15%{
+        top: 96px;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+        top: 96px;
+    }
+    100%{
+        opacity: 0;
+        top: -67px;
+    }
+
+}

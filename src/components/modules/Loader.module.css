@@ -1,0 +1,23 @@
+.container {
+    transform: translate(-50%, -50%);
+    @apply w-[90vw] h-[200px] flex items-center justify-center bg-white absolute left-1/2 top-1/2 z-50
+}
+.loader {
+    width: 40px;
+    height: 40px;
+    /* margin: auto; */
+    border: 6px solid #ffc5c5;
+    border-bottom-color: #a62626;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,12 @@
+.container{
+    @apply w-full sm:px-16 px-5 py-7 flex flex-col items-center
+}
+.container h3{
+    @apply text-2xl font-bold
+}
+.list{
+    @apply w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-content-center gap-2
+}
+.item{
+    @apply border border-[#a62626] sm:p-2 p-1 rounded-md flex sm:flex-col items-center h-36 justify-evenly
+}

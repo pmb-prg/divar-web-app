@@ -1,0 +1,15 @@
+.container{
+    @apply w-full grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 mt-8
+}
+.post{
+    @apply flex items-center justify-between h-40 border-2 p-3 rounded-md
+}
+.description{
+    @apply flex flex-col justify-between h-full 
+}
+.image{
+    @apply w-36 h-36 flex items-center overflow-hidden
+}
+.image img{
+    @apply w-full  rounded-md
+}
